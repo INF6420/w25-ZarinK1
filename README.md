@@ -4,7 +4,7 @@ A portfolio website showing my work.
 
 ## Wireframes
 
-Here are some wireframes showcasing what the sitelayout might look like. I have included wireframes showcasing the homepage, about page, and contact page could possibly look like.
+Here are some wireframes showcasing what the site layout might look like. I have included wireframes showcasing the homepage, about page, and contact page could possibly look like.
 
 ![Wireframe of Homepage](wireframes/Homepage.jpg)
 
