@@ -22,14 +22,32 @@
     <nav class="navother">
         <h1> Contact Page</h1>
         <ul>
-            <li><a href="Contact Form.html">Contact Form</a></li>
+        <!--<li><a href="Contact Form.html">Contact Form</a></li>-->
             <li><a href="Resume.html">Resume</a></li>
             <li><a href="https://www.linkedin.com/in/zarin-khan-131779144/">LinkedIn</a></li>
         </ul>
     </nav>
-    <div class="featured-image-container"><img src="images/image for website.jpg" alt="an stock image of graph in different colors"></div>
-    <p1 class="featured-text-container ">I have included links to a contact form, resume and Linkedln to get in contact with me and see where I am currently in my professional journey.</p1>
-   </main>
+    <!-- div class="featured-image-container"><img src="images/image for website.jpg" alt="an stock image of graph in different colors"></div> -->
+    <!-- div class <p1 class="featured-text-container ">I have included links to a contact form, resume and Linkedln to get in contact with me and see where I am currently in my professional journey.</p1>-->
+    <form action="https://formspree.io/f/gh2538@wayne.edu" method="POST" class="validate">
+       <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" class="form-input">
+       </div>
+       <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="_replyto" class="form-input" required>
+       </div>
+       <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"     
+        class="form-input" rows="4" required></textarea>
+       </div>
+       <div>
+        <input type="submit" value="Send">
+       </div>
+    </form>
+</main>
    <footer>
     <div>
         <h2>
@@ -39,5 +57,6 @@
         </h2>
     </div>
    </footer>
+   <script src="script.js"></script>
 </body>
 </html>
